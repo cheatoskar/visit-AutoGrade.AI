@@ -17,7 +17,7 @@ KI-Modell, was darauf trainiert wird, Tests zu bewerten/Analysieren. Insbesonder
 > basierend auf 18 Tests
 
 > basierend auf 0 Aufgaben
-- verbesserte/vereinfachte Fehleranalyse -> besseres leanring
+- verbesserte/vereinfachte Fehleranalyse -> besseres learning
 - Fehlerbehebung in Trainingsdaten
 
 ## Update 1.2 out 29.10.23
