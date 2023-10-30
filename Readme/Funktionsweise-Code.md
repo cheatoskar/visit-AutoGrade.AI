@@ -121,7 +121,7 @@ Haben wir unsere Trainingsdaten umgewandelt (Word-Dokument), koennen wir zu Schr
    >ENDSTOP = Der Schluss, damit trainieren wir dem Modell unteranderem an, wie viel es Antworten soll
    Das Modell lernt mit der Zeit die Fehleranalyse mit \t\n auszugeben.
    Hierbei enstpricht ```\n``` einem Zeilenumbruch und ```\t``` einem Tab. So sieht diese Datei Spaeter auf z.b. einer Website so aus:
-   <img src="https://github.com/cheatoskar/TestGPT-Modell/blob/main/Readme/Fehleranalyse.png">
+   <img src="Fehleranalyse.png">
 
 4. Die CSV Datei, senden wir nun an [EasyGPT](https://easygpt.io/), eine Website, die unteranderem die Daten als JSONL Datei wieder ausgeben kann. JSONL ist das dateinformat, welches OpenAI verlangt.
    Haben wir die Daten als JSONL, muessen wir sie aber nun noch in ein gueltiges Format fuer die Chat-Modell umwandeln.
@@ -206,7 +206,7 @@ print(response)
 ```
 Dieser Code passt keine Variablen des Modells an, sondern laesst es automatisch selber entscheiden.
 Hier legt es z.b die ```Epochs```, also die Trainingszyklen und weitere Parameter fest.
-[Weitere Informationen zu Parametern (nutzung)](https://github.com/cheatoskar/TestGPT-Modell#openai-playground-gpt-3-parameter)
+[Weitere Informationen zu Parametern (nutzung)](https://github.com/cheatoskar/Test-GPT#openai-playground-gpt-3-parameter)
 
 
 Danach erhaelt man eine Email, dass sein Modell fertig ist, dieser Prozess dauert meist 5-20min.
