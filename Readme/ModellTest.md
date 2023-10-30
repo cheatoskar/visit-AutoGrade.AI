@@ -2,15 +2,15 @@
 
 Um die Funktionsweise des Trainings und auch des Codes zu verstehen, habe ich hier noch einen kleinen Artikel geschrieben:
 
-[Funktionsweise-Code]()
+[Funktionsweise-Code](Funktionsweise-Code.md)
 
 >[!NOTE]
 > Um die Modelle miteinander zu vergleichen, werden sie auf dem selben Test getestet, und auch einem zu vor nie gesehenem kurz Test
 
-[Der Test zum Vergleich, Kurztest](https://github.com/cheatoskar/TestGPT-Modell/blob/main/Readme/Test.md)
+[Der Test zum Vergleich, Kurztest](Test.md)
 
 Die Optimale Antwort waere hierbei diese hier:
-```
+```python
 Fehleranalyse: 
   Aufgabe 1 (6 von 6 Punkte) 
   Aufgabe 2 (6 von 8 Punkte): 
@@ -23,7 +23,7 @@ Insgesamt:
 ```
 
 und fuer den Kurztest:
-```
+```python
 Fehleranallyse: 
 
 	Frage 1 (1 von 1 Punkt) 
@@ -56,7 +56,7 @@ So oder aehnlichm sollte es aussehen, hier habe ich nur dir fehler angegeben, di
 ## Modell v 1.0
 
 #### Gesehener Test Antwort:
-```
+```python
 #Fehleranalyse:
 
 ###Aufgabe 1 (5 von 6 Punkten): 
@@ -108,7 +108,7 @@ Aenderungen:
 - Hinzufügen der Stopsequenz, damit keine ewig langen antworten generiert Werden 
 
 #### Gesehener Test Antwort:
-```
+```python
 Fehleranalyse:
 
 Aufgabe 1 (6 von 6 Punkten):
@@ -148,7 +148,7 @@ Insgesamt: Punkte: 17 von 21, das entspricht einer Leistung von: 81% Vorgeschlag
  > Wenn man den selben Test mehrmals korrigieren laesst, kommen abweichende ergebnisse heraus!
 
 ### Kurztest:
-```
+```python
 Fehleranalyse:
 
 - In der Antwort zur Frage "Welches Ereignis markierte den Beginn des Ersten Weltkriegs?" fehlt die Erwähnung des Attentats auf den österreichischen Thronfolger Franz Ferdinand.
@@ -186,10 +186,10 @@ Aenderungen:
 - 2 Tests mit Tabellen
 - Formatierun der Fehleranalyse vollstaendig
 - Bessere Einbindung von Zitierungen
-- KI kann auch auf andere Chatsachen zum Thema Test reagieren siehe [Chat](https://github.com/cheatoskar/TestGPT-Modell/blob/main/Readme/Openai-show1.png)
+- KI kann auch auf andere Chatsachen zum Thema Test reagieren siehe [Chat](Openai-show1.png)
 
 #### Gesehener Test Antwort:
-```
+```python
 Fehleranalyse:
 	Aufgabe 1 (5 von 6 Punkte):
 		- Falsche Angabe: Reformation ist eine Zäsur, kein Beispiel für eine Epoche (-1 Punkt)
@@ -222,7 +222,7 @@ Zusammengefasst: Findet Fehler oft nicht. Der Rest ist gut!
 >- Abweichung verrigert von teils Notengraden zu einzelnen Punkten, aber immernoch vorhanden
 
 ### Kurztest:
-```
+```python
 Fehleranalyse:
 	- Frage 6: Die Antwort ist unvollständig, es fehlt das spezifische Ereignis, das das Ende des Krieges markiert. (-1 Punkt)
 
