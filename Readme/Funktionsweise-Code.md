@@ -11,8 +11,8 @@ Dieses Repository enthält den Code und die Anleitungen zum Senden von Trainings
 ## Voraussetzungen
 Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Python ist installiert.
-- Sie verfügen über ein API-Token von OpenAI.
-- Die OpenAI Python-Bibliothek ist installiert (verwenden Sie `pip install openai`).
+- API-Key von OpenAI.
+- Die OpenAI Python-Bibliothek ist installiert ( `pip install openai`).
 
 >[!NOTE]
 > **Hinweis:** Das Erstellen eines API-Tokens finden Sie [hier](https://platform.openai.com/account/api-keys). Das Verwenden der API ist kostenpflichtig!
