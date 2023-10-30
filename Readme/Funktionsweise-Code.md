@@ -137,7 +137,7 @@ Haben wir unsere Trainingsdaten umgewandelt (Word-Dokument), koennen wir zu Schr
    {"prompt": "eINGABE", "completion": "AUSGABE MODELL"}
    ```
    Nach der Manuellen Umwandlung in das erste Format, welches wir benoetigen ```{"messages": [{"role": "system", "content":""...```, haben wir eine Trainingsdatei.
-   Solch eine Date kann z.b. so aussehen [Trainingdata](./trainingsdatagpt3.5.jsonl)
+   Solch eine Date kann z.b. so aussehen [Trainingdata](../trainingsdatagpt3.5.jsonl)
    
 6. Unsere Trainingsdatei, welche nun immer ein Test und eine Fehleranalyse im gewuenschten Output stehen hat, laden wir nun auf die OpenAI Server hoch.
    ```python
