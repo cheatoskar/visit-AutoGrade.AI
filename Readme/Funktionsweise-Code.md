@@ -14,7 +14,8 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen e
 - Sie verfügen über ein API-Token von OpenAI.
 - Die OpenAI Python-Bibliothek ist installiert (verwenden Sie `pip install openai`).
 
-> **Hinweis:** Das Erstellen eines API-Tokens finden Sie [hier](https://platform.openai.com/account/api-keys). Bitte beachten Sie, dass die Verwendung der OpenAI-API kostenpflichtig ist.
+>[!NOTE]
+> **Hinweis:** Das Erstellen eines API-Tokens finden Sie [hier](https://platform.openai.com/account/api-keys). Das Verwenden der API ist kostenpflichtig!
 
 ## Schritt 1: Daten vorbereiten
 Für unser Projekt müssen wir die Trainingsdaten von einem analogen Format in ein digitales Format umwandeln. Dies kann entweder manuell erfolgen oder mithilfe fortschrittlicher OCR-Software, die handgeschriebenen Text einscannt.
