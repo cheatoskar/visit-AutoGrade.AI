@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fehleranalyse</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: left;
+      width: 800px;
+      background-color: #ffffff;
+      white-space: pre-wrap;
+      margin: 10px;
+      overflow: auto;
+      border: 1px solid #ccc;
+    }
+
+    .user-input-container {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: left;
+      width: 800px;
+      background-color: #ffffff;
+      white-space: pre-wrap;
+      margin: 10px;
+      overflow: auto;
+      border: 1px solid #ccc;
+    }
+
+    .input-box {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+
+    #user-input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    #submit-button, #reload-button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="input-box">
+    <textarea id="user-input" style="width: 100%; min-height: 100px;" placeholder="Geben Sie Ihren Text ein"></textarea>
+    <button id="submit-button" onclick="displayUserInput()">Absenden</button>
+    <button id="reload-button" onclick="reloadPage()">Neuer Test</button>
+  </div>
+  <div id="messages-container">
+    <div class="box" id="markdown-container">
+      <!-- Hier wird der formatierte Text angezeigt -->
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.12/marked.min.js"></script>
+  <script>
+    var submitted = false;
+
+    var text = "Fehleranalyse:\n\tDIE REFORMATION MARTIN LUTHER - EINE QUELLE ANALYSIEREN:\n\n\tA (5 von 8 Punkte):\n\t\t- Auf vollständige Sätze achten! (-1 Punkt)\n\t\t- \"Textart: Quasi (Statement)\" ist falsch. Die Textart = Brief (-1 Punkt)\n\t\t- \"Adressanten: An alle gläubigen und Beiger\" ist falsch! Der Brief richtet sich an \"Erzbischof Albrecht von Mainz\" (-1 Punkt)\n\n\tB (5 von 5 Punkte)\n\tC (5 von 5 Punkte)\n\n\tAufgabe 2 (5 von 6 Punkte):\n\t\t- Bezug zur Reformation ist unvollständig (-1 Punkt)\n\n\tInsgesamt:\n\t\tPunkte: 20 von 24, das entspricht einer Leistung von: 83%\n\t\tVorgeschlagene Note: 2+ ENDSTOP";
+    
+
+    var formattedText = marked(text);
+
+    document.getElementById("markdown-container").innerHTML = formattedText;
+    document.getElementById("user-input-container").innerHTML = formattedText;
+
+    function displayUserInput() {
+      if (submitted) {
+        return;
+      }
+
+      var userInput = document.getElementById("user-input").value;
+
+      if (!userInput) {
+        return;
+      }
+
+      // RegExp-Muster, um Wörter in doppelten Anführungszeichen zu finden
+      var regex = /"([^"]+)"/g;
+
+      var match;
+      while ((match = regex.exec(text)) !== null) {
+        var wordInQuotes = match[1];
+        // Markieren Sie das gefundene Wort in der Benutzereingabe
+        userInput = userInput.replace(new RegExp(escapeRegExp(wordInQuotes), 'g'), `<span class='error'>${wordInQuotes}</span>`);
+      }
+
+      // Erstellen Sie einen neuen Div-Container für den eingegebenen Text mit der Klasse "user-input-container"
+      var userInputBox = document.createElement("div");
+      userInputBox.classList.add("user-input-container");
+      userInputBox.innerHTML = userInput;
+
+      var messagesContainer = document.getElementById("messages-container");
+      messagesContainer.appendChild(userInputBox);
+
+      document.getElementById("user-input").value = "";
+      document.getElementById("submit-button").disabled = true;
+      submitted = true;
+    }
+
+    function reloadPage() {
+      location.reload();
+    }
+
+    function escapeRegExp(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+  </script>
+</body>
+</html>
