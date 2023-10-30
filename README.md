@@ -1,7 +1,7 @@
 # Test-GPT
 KI-Modell, was darauf trainiert wird, Tests zu bewerten/Analysieren. Insbesondere Geschichte!
 > [!IMPORTANT]
-> [**Funktionsweise Des Trainings**](".\Readme\Funktionsweise-Code.md")
+> [**Funktionsweise Des Trainings**](Readme\Funktionsweise-Code.md)
 > 
 > [**Fortschritt Dokumentiert, jeder Modelle:**](.\Readme\ModellTest.md)
 
