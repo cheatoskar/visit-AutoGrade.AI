@@ -3,7 +3,7 @@ KI-Modell, was darauf trainiert wird, Tests zu bewerten/Analysieren. Insbesonder
 > [!IMPORTANT]
 > [**Funktionsweise Des Trainings**](https://github.com/cheatoskar/Test-GPT/blob/main/Readme/Funktionsweise-Code.md)
 > 
-> [**Fortschritt Dokumentiert, jeder Modelle:**](https://github.com/cheatoskar/Test-GPT/blob/main/Readme/Funktionsweise-Code.md))
+> [**Fortschritt Dokumentiert, jeder Modelle:**](https://github.com/cheatoskar/Test-GPT/blob/main/Readme/ModellTest.md)
 
 
 ### Update 1.0
@@ -46,7 +46,7 @@ Beispiel:
 <img src=".\Readme\Openai-show1.png">
 
 > [!IMPORTANT]
-> [Das Dokument, mit Modell Tests kann man sich hier anschauen, es zeigt Probleme, verbesserungen (auch in der Zukunft) und Beispiele jeder Modelle:](https://github.com/cheatoskar/Test-GPT/blob/main/Readme/Funktionsweise-Code.md)
+> [Das Dokument, mit Modell Tests kann man sich hier anschauen, es zeigt Probleme, verbesserungen (auch in der Zukunft) und Beispiele jeder Modelle:](https://github.com/cheatoskar/Test-GPT/blob/main/Readme/ModellTest.md)
 
 > [!WARNING]
 > Experimente der Parameter, folgen mit kommenden Versionen, um das Verhalten zu untersuchen!
