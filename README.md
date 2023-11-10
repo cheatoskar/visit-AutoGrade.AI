@@ -1,4 +1,9 @@
 # Test-GPT
+> [!NOTE]
+> OpenAI hat GPT 4 fuer fine tuning Modelle freigestellt. Somit werden kommende Modelle einen Boost der Performance bekommen, jedoch etwas langsamer sein!
+
+
+
 KI-Modell, was darauf trainiert wird, Tests zu bewerten/Analysieren. Insbesondere Geschichte!
 > [!IMPORTANT]
 > [**Funktionsweise Des Trainings**](https://github.com/cheatoskar/Test-GPT/blob/main/Readme/Funktionsweise-Code.md)
@@ -6,13 +11,13 @@ KI-Modell, was darauf trainiert wird, Tests zu bewerten/Analysieren. Insbesonder
 > [**Fortschritt Dokumentiert, jeder Modelle:**](https://github.com/cheatoskar/Test-GPT/blob/main/Readme/ModellTest.md)
 
 
-### Update 1.0
+### Update 1.0 (gpt 3.5 turbo)
 > [!NOTE]
 > basierend auf 12 Tests
 
 > basierend auf 0 Aufgaben
 
-### Update 1.1
+### Update 1.1 (gpt 3.5 turbo)
 > [!NOTE]
 > basierend auf 18 Tests
 
@@ -20,7 +25,7 @@ KI-Modell, was darauf trainiert wird, Tests zu bewerten/Analysieren. Insbesonder
 - verbesserte/vereinfachte Fehleranalyse -> besseres learning
 - Fehlerbehebung in Trainingsdaten
 
-## Update 1.2 out 29.10.23
+## Update 1.2 (gpt 3.5 turbo)
 > [!NOTE]
 > basierend auf 20 Tests
 
