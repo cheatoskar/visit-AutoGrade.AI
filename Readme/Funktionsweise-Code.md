@@ -207,7 +207,7 @@ print(response)
 ```
 Dieser Code passt keine Variablen des Modells an, sondern laesst es automatisch selber entscheiden.
 Hier legt es z.b die ```Epochs```, also die Trainingszyklen und weitere Parameter fest.
-[Weitere Informationen zu Parametern (nutzung)](../#openai-playground-gpt-3-parameter)
+[Weitere Informationen zu Parametern (nutzung)](/Variation.md)
 
 
 Danach erhaelt man eine Email, dass sein Modell fertig ist, dieser Prozess dauert meist 5-20min.
