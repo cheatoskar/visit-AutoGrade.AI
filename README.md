@@ -51,24 +51,3 @@ Beispiel:
 > [!WARNING]
 > Experimente der Parameter, folgen mit kommenden Versionen, um das Verhalten zu untersuchen!
 
-
-### OpenAI Playground GPT-3-Parameter
-#### model: 
-Wählen Sie das gewünschte GPT-3-Modell aus. Verschiedene Modelle haben unterschiedliche Fähigkeiten und Größen.
-
-#### temperature: 
-Steuert die Zufälligkeit der Ausgabe. Niedrige Werte führen zu konservativeren Texten, während hohe Werte zu kreativeren Texten führen.
-
-#### max_tokens: 
-Begrenzen Sie die maximale Länge der generierten Texte.
-
-#### top_p: 
-Steuern Sie die Wahrscheinlichkeit von Wörtern in der Ausgabe. Niedrige Werte erzeugen konservativere Texte, während hohe Werte zu mehr Vielfalt führen.
-
-#### frequency_penalty: 
-Passen Sie die Verwendung von häufig vorkommenden Wörtern in der Ausgabe an.
-
-#### presence_penalty: 
-Passen Sie die Verwendung von selten vorkommenden Wörtern in der Ausgabe an.
-
-stop_sequence: Definieren Sie eine benutzerdefinierte Sequenz, die als Endpunkt für die generierte Ausgabe dient.
