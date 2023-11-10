@@ -1,4 +1,4 @@
-# Test-GPT
+# Test-GPT ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 > [!NOTE]
 > OpenAI hat GPT 4 fuer fine tuning Modelle freigestellt. Somit werden kommende Modelle einen Boost der Performance bekommen, jedoch etwas langsamer sein!
 
