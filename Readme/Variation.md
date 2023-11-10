@@ -6,17 +6,23 @@
 ## Die Modellparameter 
 ...sind entscheidend, um die gewünschten Antworten von unserem Modell zu erhalten. Hier sind einige der wichtigsten Parameter, die wir berücksichtigen:
 
-**Prompt:** Der Ausgangspunkt jeder Modellanfrage. Das Prompt enthält die Informationen, die Sie dem Modell geben, um eine Antwort zu generieren.
+### Prompt:
+Der Ausgangspunkt jeder Modellanfrage. Das Prompt enthält die Informationen, die Sie dem Modell geben, um eine Antwort zu generieren.
 
-**Rollenbestimmung:** Die Rolle definiert, welche Aufgabe oder Funktion ein Textausschnitt im Gespräch hat bzw. wie das Modell mit ihnen umgehen Soll.
+### Rollenbestimmung:
+Die Rolle definiert, welche Aufgabe oder Funktion ein Textausschnitt im Gespräch hat bzw. wie das Modell mit ihnen umgehen Soll.
 
-**Maximale Token:** Dieser Parameter begrenzt die Anzahl der Tokens in der Modellantwort.
+### Maximale Token: 
+Dieser Parameter begrenzt die Anzahl der Tokens in der Modellantwort.
 
-**Stop-Sequenzen:** Symbole oder Zeichen, die das Modell dazu veranlassen, die Antwort zu beenden.
+### Stop-Sequenzen:
+Symbole oder Zeichen, die das Modell dazu veranlassen, die Antwort zu beenden.
 
-**Temperatur:** Steuert die Zufälligkeit der Antworten. Eine höhere Temperatur führt zu zufälligeren Antworten, während eine niedrigere Temperatur zu konservativeren und vorhersehbareren Antworten führt.
+### Temperatur:
+Steuert die Zufälligkeit der Antworten. Eine höhere Temperatur führt zu zufälligeren Antworten, während eine niedrigere Temperatur zu konservativeren und vorhersehbareren Antworten führt.
 
-**Top-P:** Dieser Parameter beeinflusst die Wahrscheinlichkeit, mit der das Modell die am häufigsten vorkommenden Tokens in der Antwort auswählt.
+### Top-P:
+Dieser Parameter beeinflusst die Wahrscheinlichkeit, mit der das Modell die am häufigsten vorkommenden Tokens in der Antwort auswählt.
 
 >[!IMPORTANT]
 >Die fuer uns wichtigen Parameter sind: ```Rolle```,```Temperatur```,```Stop Sequenz```
