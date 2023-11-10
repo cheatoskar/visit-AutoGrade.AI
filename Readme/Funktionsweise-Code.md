@@ -224,4 +224,5 @@ Hier sind einige Chats:
 [v1.2 Chat 3](https://platform.openai.com/playground/p/0oV0PGXwWyzO2wTIA408mzSH?model=ft:gpt-3.5-turbo-0613:personal::8F1RLvEo)
 
 Aeltere Modelle:
+
 [v 1.0 Chat 4](https://platform.openai.com/playground/p/E4J2AOMLS6MdwroNqsV224Ok?model=ft:gpt-3.5-turbo-0613:personal::849ySJer)
