@@ -119,9 +119,9 @@ Haben wir unsere Trainingsdaten umgewandelt (Word-Dokument), koennen wir zu Schr
 	"Fehleranalyse:\n\tDIE REFORMATION MARTIN LUTHER - EINE QUELLE ANALYSIEREN:\n\n\tA (5 von 8 Punkte):\n\t\t- Auf vollständige Sätze achten! (-1 Punkt)\n\t\t- \"Textart: Quasi (Statement)\" ist falsch. Die Textart = Brief (-1 Punkt)\n\t\t- \"Adressanten: An alle 	gläubigen und Beiger\" ist falsch! Der Brief richtet sich an \"Erzbischof Albrecht von Mainz\" (-1 Punkt)\n\n\tB (5 von 5 Punkte)\n\tC (5 von 5 Punkte)\n\n\tAufgabe 2 (5 von 6 Punkte):\n\t\t- Bezug zur Reformation ist unvollständig (-1Punkt)\n\n\tInsgesamt:\n\t\tPunkte: 20 von 24, das entspricht einer Leistung von: 83%\n\t\tVorgeschlagene Note: 2+ ENDSTOP"
    ```
    >[!NOTE]
-   >ENDSTOP = Der Schluss, damit trainieren wir dem Modell unteranderem an, wie viel es Antworten soll
-   Das Modell lernt mit der Zeit die Fehleranalyse mit \t\n auszugeben.
-   Hierbei enstpricht ```\n``` einem Zeilenumbruch und ```\t``` einem Tab. So sieht diese Datei Spaeter auf z.b. einer Website so aus:
+   >ENDSTOP ist Der Schluss, damit trainieren wir dem Modell unteranderem an, wie viel es Antworten soll
+   >Das Modell lernt mit der Zeit die Fehleranalyse mit \t\n auszugeben.
+   >Hierbei enstpricht ```\n``` einem Zeilenumbruch und ```\t``` einem Tab. So sieht diese Datei Spaeter auf z.b. einer Website so aus:
    <img src="Fehleranalyse.png">
 
 4. Die CSV Datei, senden wir nun an [EasyGPT](https://easygpt.io/), eine Website, die unteranderem die Daten als JSONL Datei wieder ausgeben kann. JSONL ist das dateinformat, welches OpenAI verlangt.
