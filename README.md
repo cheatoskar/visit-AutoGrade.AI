@@ -79,12 +79,15 @@ Für unser Projekt müssen wir die Trainingsdaten von einem analogen Format in e
 graph TD;
     A[Analog] --> B;
     A[Analog] --> D;
-    B[Analoge Handgeschriebene Tests] --> C[Digitaler Text];
-    D[Korrektur des Lehrers] --> E[Fehleranalyse];
+    B[Analoge Handgeschriebene Tests]
+    D[Korrektur des Lehrers] 
 
-    E--> F[Digitales Format]
-    C--> F
-    F--> G[Daten in CSV Format]
+    B--> F[Digitales Format]
+    D--> F
+    F--> C[Digitaler Text];
+    F --> E[Fehleranalyse];
+    E--> G[Daten in CSV Format]
+    C--> G
     G--> H[Daten mithilfe von EasyGPT in jsonl]
     H--> I[Fehleranalyse mit markdown Formatieren]
     I--> J[Daten in GPT akzeptiertes Format bringen]
