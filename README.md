@@ -50,7 +50,11 @@ Beispiel:
 > [!IMPORTANT]
 > [Das Dokument, mit Modell Tests kann man sich hier anschauen, es zeigt Probleme, verbesserungen (auch in der Zukunft) und Beispiele jeder Modelle:](https://github.com/cheatoskar/Test-GPT/blob/main/Readme/ModellTest.md)
 
+## Update 1.3 (gpt 3.5 turbo)
+> [!NOTE]
+> basierend auf ins. 30 Tests, Klausuren, Kurztests und Einzelaufgaben
 
+GERADE IN BEARBEITUNG!
 
 
 # Trainingsdaten an OpenAI senden und Modelltraining starten
