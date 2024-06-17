@@ -88,8 +88,8 @@ graph TD;
 
     B--> F[Digitales Format]
     D--> F
-    F--> C[Digitaler Text];
-    F --> E[Fehleranalyse];
+    F--> C[Fehleranalyse];
+    F --> E[Digitaler Text];
     E--> G[Daten in CSV Format]
     C--> G
     G--> H[Daten mithilfe von EasyGPT in jsonl]
