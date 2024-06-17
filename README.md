@@ -92,11 +92,9 @@ graph TD;
     F --> E[Digitaler Text];
     E--> G[Daten in CSV Format]
     C--> G
-    G--> H[Daten mithilfe von EasyGPT in jsonl]
+    G--> H[Daten in jsonl]
     H--> I[Fehleranalyse mit markdown Formatieren]
-    I--> J[Daten in GPT akzeptiertes Format bringen]
-    J--> K[Daten überprüfen]
-    K--> L[Trainingsdaten Hochladen]
+    I--> L[Trainingsdaten Hochladen]
     L--> N[Modell über OpenAI trainieren]
     N--> M[Testen mithilfe OpenAI Playground]
 
