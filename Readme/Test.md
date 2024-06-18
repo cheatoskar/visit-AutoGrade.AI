@@ -7,9 +7,8 @@
 3. Begründe an einem selbstgewählten Beispiel, wie die Ideen der Staatsphilosophen modernen Staatsbildung begünstigten.  7BE  
 
  
-1) 
 
-Die Epoche oder auch Haltepunkt steht für:  
+1. Die Epoche oder auch Haltepunkt steht für:  
 -Ära: allgemeine Bezeichnung für eine periode oder Zeitrechnung  
 -Zeitalter: längerer Geschichtlicher Abschnitt mit grundlegenden Gemeinsamkeiten  
 Zäsur: Die Zäsur beschreibt einen markanten Einschnitt und bildet somit den Übergang zwischen zwei Epochen  
@@ -24,9 +23,7 @@ Zusammenfassen kann man sagen, dass es viele Gründe und Faktoren gab, die sich 
 
   
 
-3.  
-
-Anhand des Staatenmodells von John Locke, lassen sich einige Ideen auf Moderne Staaten übertragen. Locke ging davon aus, dass der Mensch im Naturzustand gewisse Recht hat (Leben, Freiheit, Eigentum), welche durch eine Zentralisierte Macht, mithilfe eines sozialvertrags geschützt werden sollen. In seinem Staatenmodell waren die Bürger , über ihr eigenes Recht, und geben durch Zustimmung, der Regierung ihre Legitimität. Die Macht soll aber verfassungsmäßig sein und somit begrenzt. Sie soll zu günsten der Bürger handeln und falls dies nicht so ist, können die Bürgers sie stürzen oder eine Revolution anfangen.  
+3. Anhand des Staatenmodells von John Locke, lassen sich einige Ideen auf Moderne Staaten übertragen. Locke ging davon aus, dass der Mensch im Naturzustand gewisse Recht hat (Leben, Freiheit, Eigentum), welche durch eine Zentralisierte Macht, mithilfe eines sozialvertrags geschützt werden sollen. In seinem Staatenmodell waren die Bürger , über ihr eigenes Recht, und geben durch Zustimmung, der Regierung ihre Legitimität. Die Macht soll aber verfassungsmäßig sein und somit begrenzt. Sie soll zu günsten der Bürger handeln und falls dies nicht so ist, können die Bürgers sie stürzen oder eine Revolution anfangen.  
 Einige dieser Ideen begünstigten die Moderne Staatsbildung, Dies kann man z.b. an der konstituellen Monarchie Englands Festmachen, aber auch an heutigen Demokratiesystemen.  
 Als Locke 1689 seine Staatstheorie veröffentlichte, konnte man sehen, dass die folgende monarchie in England auf einigen seiner Prinzipien aufbaute. z.B., dass es eine begrenzte Macht gab, also keine absolute Monarchie. Diese macht wurde in England zusätzlich auf das Parlament aufgeteilt. Auch die Idee, dass die Bürger für die legitimität der Regierung sorgen (durch Zustimmung), ist das Grundprinzip heutiger Parteiwahlen, wobei es in heutigen Systemen meist eine noch größere Gewaltenteilung gibt. *  
 Allein durch die Veröffentlichung der Ideen und Grundgedanken, konnten die Ideen von Staatstheoretikern aufgegriffen und übernommen werden. Aufgrund vieler unterschiedlicher Staatstheorien und auch Herrschaftsformen, sind je nach Staatstheorie auch Gemeinsamkeiten und Unterschiede zu erkennen.  
