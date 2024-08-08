@@ -2,7 +2,7 @@
   <img src="https://github.com/cheatoskar/Test-GPT/blob/main/Readme/Icon.ico" alt="Logo" width="100" height="100">
 </p>
 
-# Test-GPT 
+# AutoGrade.AI 
 
 > [!WARNING]
 > OpenAI hat GPT 4 fuer fine tuning Modelle freigestellt. Somit werden kommende Modelle einen Boost der Performance bekommen, jedoch etwas langsamer sein!
